@@ -1,38 +1,42 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.Header {
+  padding: 1em;
+  padding: 25px;
+  background: url("https://thumbs.dreamstime.com/z/old-grunge-newspaper-collage-horizontal-texture-unreadable-vintage-news-paper-pattern-scratched-textured-page-gray-white-newsprint-118766441.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 1px;
+  background-position: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.Nav {
+  border: 1px solid blue;
+}
+.ArticlesList {
+  list-style-type: none;
+  position: relative;
+  text-align: left;
+  padding: 0 0.5px;
+  /* margin: auto; */
+  border: 1px solid;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  /* margin: auto; */
+  border-bottom: 1px solid;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CommentsList {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  /* margin: auto; */
+  border: 1px solid;
+  margin: 0;
 }
