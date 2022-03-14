@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getArticleById } from "../utils/api";
+import { Avatar } from "@chakra-ui/avatar";
 
 import Votes from "./Votes";
 
@@ -17,6 +18,7 @@ const ArticleCard = (props) => {
   return (
     <main>
       <h3>Article</h3>
+      <Avatar size='sm' name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
       <h4>Author: {article.author}</h4>
       <p>
         at:

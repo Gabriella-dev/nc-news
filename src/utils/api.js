@@ -37,3 +37,11 @@ export const getArticlecomments = (article_id) => {
     return data.comments;
   });
 };
+export const postComment = (article_id, body) => {
+  return newsApi
+    .post(`/articles/${article_id}/comments`, body)
+    .then(({ data }) => {
+      console.log("data comment", data);
+      return data;
+    });
+};

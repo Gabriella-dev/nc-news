@@ -4,10 +4,11 @@ import { getArticlecomments } from "../utils/api";
 import CommentAdder from "./CommentAdder";
 
 const Comments = (props) => {
+  // console.log(">>>>>props in comment list", props);
   const { article_id } = useParams();
 
   const [comments, setComments] = useState([]);
-
+  //
   useEffect(() => {
     getArticlecomments(article_id).then((commentsFromApi) => {
       setComments(commentsFromApi);
