@@ -10,6 +10,7 @@ import {
   Tag,
   Container,
   useStyleConfig,
+  Divider,
 } from "@chakra-ui/react";
 
 import { getArticleByTopic, getArticles } from "../utils/api";
@@ -113,7 +114,7 @@ const Articles = ({ topic }) => {
                       </Link>
                       <HStack spacing={2} marginTop={3}>
                         <Tag size={"md"} variant='outline' colorScheme='green'>
-                          {`Topic: ${article.topic}`}
+                          {`Tag: ${article.topic}`}
                         </Tag>
                         );
                       </HStack>
@@ -130,8 +131,10 @@ const Articles = ({ topic }) => {
                           src='https://100k-faces.glitch.me/random-image'
                           alt={`Avatar of ${article.author}`}
                         />
+
                         <Text fontWeight='medium'>{article.author}</Text>
                         <Text>—</Text>
+
                         <Text>{article.created_at.substring(0, 10)}</Text>
                       </HStack>
 
@@ -166,6 +169,7 @@ const Articles = ({ topic }) => {
                     </Box>
                   </Box>
                 </>
+                <Divider orientation='horizontal' height='30px' />
               </NotesListBox>
             );
           })}
