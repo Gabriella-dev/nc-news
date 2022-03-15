@@ -126,7 +126,7 @@ const Comments = () => {
                     fontWeight={"medium"}
                     color={"gray.500"}
                   >
-                    at - {comment.created_at.substring(0, 10)}
+                    - {comment.created_at.substring(0, 10)}
                   </chakra.span>
                 </chakra.p>
               </Flex>
