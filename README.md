@@ -25,6 +25,6 @@ to install the dependencies. (you will also need to install Install Lodash by ru
 
 ## Acknowledgements
 
-My gratitude to the [Northcoders] (https://northcoders.com/)team for providing an amazing learning environment.
+My gratitude to the [Northcoders] (https://northcoders.com/) team for providing an amazing learning environment.
 
 Thank you so much [Northcoders] (https://northcoders.com/)!
