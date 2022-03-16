@@ -2,9 +2,17 @@
 <p align="center">News Website</p>
 <p align="center"><a href="https://nc-news-silk.vercel.app/">Explore</a>
 
+## Overview
+
 The nc-news project was created in order to learn how to build a single page application (SPA) in React.js and to make use of the [backend](https://github.com/Gabriella-dev/BACKEND-NC-NEWS) (hosted on [Heroku](https://gabriella-nc-news.herokuapp.com/api)) I had created.
 
 If you would like to view the website, you can [click here](https://nc-news-silk.vercel.app/).
+
+## Built With
+
+- [React.js](https://reactjs.org/)
+- [Axios](https://axios-http.com/)
+- [Chakra UI](https://chakra-ui.com/)
 
 ## Getting Started
 
