@@ -2,22 +2,22 @@
 <p align="center">News Website</p>
 <p align="center"><a href="https://nc-news-silk.vercel.app/">Explore</a>
 
-The nc-news project was created in order to learn how to build a single page application (SPA) in React.js and to make use of the [backend] (https://github.com/Gabriella-dev/BACKEND -NC-NEWS) I had created.
+The nc-news project was created in order to learn how to build a single page application (SPA) in React.js and to make use of the [backend](https://github.com/Gabriella-dev/BACKEND-NC-NEWS) (hosted on [Heroku](https://gabriella-nc-news.herokuapp.com/api)) I had created.
 
-If you would like to view the website, you can [click here] (https://nc-news-silk.vercel.app/)
+If you would like to view the website, you can [click here](https://nc-news-silk.vercel.app/).
 
 ## Getting Started
 
-Make sure you have [Node> v14.x] (https://nodejs.org/en/) installed.
+Make sure you have [Node](https://nodejs.org/en/) installed.
 
 ### Clone
 
-Fork and clone the repository on your machine.
+- fork and clone the repository on your machine.
 
 ### Install Dependencies
 
-`cd` into the cloned repo and run` npm install`
-to install the dependencies. (you will also need to install Install Lodash by running `npm install lodash`)
+- `cd` into the cloned repo and run` npm install`
+  to install the dependencies. (you will also need to install Lodash by running `npm install lodash`)
 
 ### Run local server
 
@@ -25,6 +25,6 @@ to install the dependencies. (you will also need to install Install Lodash by ru
 
 ## Acknowledgements
 
-My gratitude to the [Northcoders] (https://northcoders.com/) team for providing an amazing learning environment.
+My gratitude to the [Northcoders](https://northcoders.com/) team for providing an amazing learning environment.
 
-Thank you so much [Northcoders] (https://northcoders.com/)!
+Thank you so much [Northcoders](https://northcoders.com/)!
